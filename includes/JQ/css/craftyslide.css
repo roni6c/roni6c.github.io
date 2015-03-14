@@ -1,0 +1,37 @@
+/*
+
+Craftyslide CSS Styles
+
+*/
+
+#slideshow {
+	box-shadow:0 3px 5px #999;
+}
+
+#slideshow ul {
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+#slideshow ul li {
+	height:300px;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.caption {
+	width:845px;
+	margin:0;
+	padding:10px;
+	position:absolute;
+	left:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	color:#fff;
+	border-top:1px solid #000;
+	background:rgba(0,0,0,0.6);
+}
