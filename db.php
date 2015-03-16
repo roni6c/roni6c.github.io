@@ -1,9 +1,11 @@
 <?php
 //create a mySQL DB connection:
-$dbhost = "166.62.8.47";
-$dbuser = "auxstudDB1";
-$dbpass = "auxstud3DB1!";
-$dbname = "auxstudDB1";
+$dbhost = "82.80.211.156";
+$dbuser = "ezcom_roni";
+$dbpass = "roni123roni";
+$dbname = "ezcom_roni";
+
+			
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 //testing connection success
